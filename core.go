@@ -3,7 +3,7 @@ package ussd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/samora/ussd-go/validator"
+	"github.com/cholthi/ussd-go/validator"
 	"strconv"
 )
 
