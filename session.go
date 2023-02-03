@@ -1,7 +1,7 @@
 package ussd
 
 import (
-	"github.com/samora/ussd-go/sessionstores"
+	"github.com/cholthi/ussd-go/sessionstores"
 	"strings"
 )
 
