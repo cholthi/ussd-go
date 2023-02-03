@@ -1,4 +1,4 @@
-module github.com/cholthi/router
+module github.com/cholthi/ussd-go
 
 go 1.15
 
