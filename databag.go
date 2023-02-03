@@ -32,7 +32,7 @@ func (d DataBag) Get(key string) (string, error) {
 }
 
 // Exists verifies if value is in databag
-func (d DataBag) Exists(key string) (bool) {
+func (d DataBag) Exists(key string) (bool, error) {
 	return d.store.HashValueExists(d.name, key)
 }
 

@@ -38,7 +38,7 @@ func (s session) Get() route {
 }
 
 func (s session) Exists() bool {
-	b := s.store.ValueExists(s.routeKey)
+	b , _ := s.store.ValueExists(s.routeKey)
 	return b
 }
 
